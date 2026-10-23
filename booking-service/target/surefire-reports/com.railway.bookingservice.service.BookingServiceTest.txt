@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.railway.bookingservice.service.BookingServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.219 s <<< FAILURE! -- in com.railway.bookingservice.service.BookingServiceTest
+com.railway.bookingservice.service.BookingServiceTest.testBookHappyPath -- Time elapsed: 2.176 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.railway.bookingservice.entity.Ticket$BookingType.name()" because the return value of "com.railway.bookingservice.entity.Ticket.getBookingType()" is null
+	at com.railway.bookingservice.service.BookingService.book(BookingService.java:149)
+	at com.railway.bookingservice.service.BookingServiceTest.testBookHappyPath(BookingServiceTest.java:99)
+

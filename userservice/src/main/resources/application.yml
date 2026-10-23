@@ -1,0 +1,43 @@
+server:
+  port: 8082   # This service will run on port 8081
+
+spring:
+  application:
+    name: user-service   # The name Eureka will use to register this service
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/railway_user_db?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true
+    username: root         # Change this to your MySQL username
+    password: "@Shikhar1310"           # Change this to your MySQL password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update     # Auto creates/updates tables. Use 'create' first time, then 'update'
+    show-sql: true         # Shows SQL queries in console (helpful for learning)
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+        format_sql: true   # Makes SQL output readable
+
+# JWT Configuration
+jwt:
+  secret: 404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970   # Secret key for signing tokens (keep this secret!)
+  expiration: 86400000    # Token valid for 24 hours (in milliseconds)
+  refresh-expiration: 604800000  # Refresh token valid for 7 days
+
+# Eureka Client Configuration - tells this service where the Eureka server is
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/   # Your Eureka server URL
+    fetch-registry: true
+    register-with-eureka: true
+  instance:
+    prefer-ip-address: true
+
+# Logging configuration
+logging:
+  level:
+    com.railway.userservice: DEBUG
+    org.springframework.security: DEBUG

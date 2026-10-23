@@ -1,0 +1,17 @@
+C:\Users\shikgupt\Downloads\Railway project\admin-service\src\main\java\com\railway\adminservice\AdminServiceApplication.java
+C:\Users\shikgupt\Downloads\Railway project\admin-service\src\main\java\com\railway\adminservice\client\TrainServiceClient.java
+C:\Users\shikgupt\Downloads\Railway project\admin-service\src\main\java\com\railway\adminservice\client\UserServiceClient.java
+C:\Users\shikgupt\Downloads\Railway project\admin-service\src\main\java\com\railway\adminservice\config\FeignConfig.java
+C:\Users\shikgupt\Downloads\Railway project\admin-service\src\main\java\com\railway\adminservice\config\SecurityConfig.java
+C:\Users\shikgupt\Downloads\Railway project\admin-service\src\main\java\com\railway\adminservice\controller\AdminDashboardController.java
+C:\Users\shikgupt\Downloads\Railway project\admin-service\src\main\java\com\railway\adminservice\controller\AdminTrainController.java
+C:\Users\shikgupt\Downloads\Railway project\admin-service\src\main\java\com\railway\adminservice\controller\AdminUserController.java
+C:\Users\shikgupt\Downloads\Railway project\admin-service\src\main\java\com\railway\adminservice\dto\ApiResponse.java
+C:\Users\shikgupt\Downloads\Railway project\admin-service\src\main\java\com\railway\adminservice\dto\DashboardDto.java
+C:\Users\shikgupt\Downloads\Railway project\admin-service\src\main\java\com\railway\adminservice\dto\TrainDetailDto.java
+C:\Users\shikgupt\Downloads\Railway project\admin-service\src\main\java\com\railway\adminservice\dto\UserSummaryDto.java
+C:\Users\shikgupt\Downloads\Railway project\admin-service\src\main\java\com\railway\adminservice\security\JwtAuthenticationFilter.java
+C:\Users\shikgupt\Downloads\Railway project\admin-service\src\main\java\com\railway\adminservice\security\JwtService.java
+C:\Users\shikgupt\Downloads\Railway project\admin-service\src\main\java\com\railway\adminservice\service\AdminDashboardService.java
+C:\Users\shikgupt\Downloads\Railway project\admin-service\src\main\java\com\railway\adminservice\service\AdminTrainService.java
+C:\Users\shikgupt\Downloads\Railway project\admin-service\src\main\java\com\railway\adminservice\service\AdminUserService.java
